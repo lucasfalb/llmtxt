@@ -1,0 +1,26 @@
+{
+  "name": "llmtxt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "bottleneck": "^2.19.5",
+    "cheerio": "^1.1.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "openai": "^5.9.1",
+    "ws": "^8.18.3",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
